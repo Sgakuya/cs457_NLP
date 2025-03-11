@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: test_mini.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_mini.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: test 50 samples",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test.py",
+            "console": "integratedTerminal",
+            "args": ["train.tsv", "dev.tsv", "--avg_samples_per_language", "50"]
+        },
+        {
+            "name": "Python Debugger: full test",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test.py",
+            "console": "integratedTerminal",
+            "args": ["train.tsv", "dev.tsv"]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: test_mini.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test_mini.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python Debugger: test.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "test.py",
+            "console": "integratedTerminal",
+            "args": ["POS_train.txt", "POS_dev.txt"]
+        },
+        {
+            "name": "Python Debugger: error_helper.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "error_helper.py",
+            "console": "integratedTerminal"
+        }
+    ]
+}
